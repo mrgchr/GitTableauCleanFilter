@@ -16,7 +16,7 @@ This app is a app working with Git clean filter to clean up those SCM-unfriendly
 # How to use
 
 ## install the app
-Place `GitTableauCleanFilter.exe` to your Windows PC directory where is on execute PATH is.  
+Place `GitTableauCleanFilter.exe` to your Windows PC directory where is on execute PATH.  
 .NET Framework 4.6.1 or above is required.
 
 ## edit `.gitattribute` file
