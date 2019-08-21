@@ -35,8 +35,8 @@ Execute following command on your console in your git repository.
 
 Or, you can edit `.git\config` file directory. Add following lines to the file.
 ```
-[filter "tableau"]
-	clean = GitTableauSmudgeFilter.exe %f
+[filter "tableauworkbook"]
+	clean = GitTableauCleanFilter.exe %f
 ```
 
 If you want to modify global config, you can achieve it by executing following.
