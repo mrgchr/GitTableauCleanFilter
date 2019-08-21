@@ -9,7 +9,13 @@ namespace GitTableauCleanFilter
     {
         private static void Main(string[] args)
         {
+            if (args.Length != 1)
+            {
+                return;
+            }
+
             var file = args[0];
+
             var pathConvertions = GetFilePathConvertions(file);
 
             var tableauxml = ReadTwbXmlStringFromInput();
